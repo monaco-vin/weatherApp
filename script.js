@@ -49,7 +49,7 @@ function displayFiveDay(daily){
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">${date}</h5>
-        <img src="http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" />
+        <img src="https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" />
         <p class="card-text">Temp: ${day.temp.day}° F</p>
         <p class="card-text">Wind: ${day.wind_speed} MPH</p>
         <p class="card-text">Humidity: ${day.humidity}%</p>
