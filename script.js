@@ -10,7 +10,7 @@ var searchBtns = document.querySelector("#searchBtns");
 
 
 function apiRequest(city){
-   fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`)
+   fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`)
    .then(data => {
      return data.json()
    })
